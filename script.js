@@ -29,4 +29,5 @@ function clock () {
     document.getElementById("min").innerHTML = minutes;
     document.getElementById("sec").innerHTML = seconds;
 }
+clock();
 let inter = setInterval(clock, 1000);
