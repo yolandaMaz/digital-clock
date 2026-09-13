@@ -6,7 +6,8 @@ function clock () {
     let today = new Date();
 
     document.getElementById('Date').innerHTML = (dayNames [today.getDay()] + " " + today.getDate() + " " + monthNames [today.getMonth()] + " " + today.getFullYear());
-    
+    document.getElementById('Date').style.display = 'block';
+
     let hours = today.getHours();
     let minutes = today.getMinutes();
     let seconds = today.getSeconds();

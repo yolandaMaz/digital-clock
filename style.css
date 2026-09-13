@@ -44,6 +44,9 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+#Date {
+    display:none;
+}
 
 .clock ul li {
     color: pink;
